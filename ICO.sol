@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 
-contract MonICO is Ownable {
+contract ICO is Ownable {
     using SafeMath for uint256;
     IERC20 internal token;
 
